@@ -40,12 +40,15 @@ navbar
 
 }
 
-@media screen and (min-width: 500px) {
-  body {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 0.3rem;
+nav-bar{
+display:flex;
+}
+@media only screen and (min-width: 500px) {
+  nav-bar {
     background-color: aliceblue;
   }
+}
+.flex-container
+{
+  display:flex;
 }
