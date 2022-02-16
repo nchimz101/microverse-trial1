@@ -42,6 +42,10 @@ navbar
 
 @media screen and (min-width: 500px) {
   body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0.3rem;
     background-color: aliceblue;
   }
 }
