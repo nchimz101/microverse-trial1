@@ -16,15 +16,18 @@
     display:inline;
 }
 
-ul{
-    list-style-type: none;
-    display:inline;
-    float: right;
-}
-#nav-bar
+navbar
 {
+     
+}
+#nav-bar li
+{
+    display: inline-block;
     float: right;
-    display:inline;
+    list-style-type: none;
+    font-size: 18px;
+    color: #08090a;
+    padding-right: 3vh;
 }
 /* #nav-link 
 {
