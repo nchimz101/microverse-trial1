@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
 <title>Landing Page</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="header"> 
-    <img id = "header-img" src = "wolf.jpg" alt = "wolf"/>
+<header id="header">
+    <img id = "header-img" src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Flone-wolf&psig=AOvVaw262V3pwgOca0kyLRc0_dWN&ust=1645095402108000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCH-4yIhPYCFQAAAAAdAAAAABAD" alt = "wolf"/>
     <nav id="nav-bar">
         <ul>
-            <li class="nav-link"> 
-                HOme
+          <li class="nav-link">
+
+                <button><a href = "#Home">Home</a></button>
             </li>
             <li class="nav-link">
-                About Us
+               <button><a href = "#about">About Us</a></button>
             </li>
-            <li class="nav-link"> 
-                Contact Us
+            <li class="nav-link">
+                <button><a href = "#Contact">Contact Us</a></button>
             </li>
-
         </ul>
-
     </nav>
 
 </header>
 
+<section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+  </section>
+
+<section>
+  <section =id"contact">
+    <h2>Contact Us</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </section>
+
+</section>
+
 
 <!-- Video code  -->
 
-<video>
+<video id ="video">
     <source src = "https://www.youtube.com/watch?v=jH3C8FyHsIk" alt = "Wloves - phosphorcent">
 </video>
 
 
 <!-- Form  -->
 
-<form id="form" > 
+<form id="form" >
     <label>Enter Email Address: </label>
     <br>
-    <input type ="text" id ="email" placeholder="abc@gmail.com">
+    <input type ="email" id ="email" placeholder="abc@gmail.com">
     <br>
-    <input type="submit" Value="submit">
+    <input id="submit" type="submit" Value="submit">
 
 </form>
 
@@ -51,5 +67,6 @@
 
 
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
 </html>
-

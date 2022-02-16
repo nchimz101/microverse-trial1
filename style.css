@@ -4,21 +4,20 @@
     padding: 20px 10px;
     margin: 5px 5px;
     background-color: aliceblue;
-    display:inline;
 
 }
 #header-img
 {
     float: left;
     /* size: 10px; */
-    height:120px;
-    width:120px;
-    display:inline;
+    height:60px;
+    width:60px;
 }
 
 navbar
 {
-     
+
+
 }
 #nav-bar li
 {
@@ -29,7 +28,20 @@ navbar
     color: #08090a;
     padding-right: 3vh;
 }
-/* #nav-link 
+/* #nav-link
 {
     float: right;
 } */
+
+#video{
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: aliceblue;
+  }
+}
