@@ -1,0 +1,32 @@
+
+#header
+{
+    padding: 20px 10px;
+    margin: 5px 5px;
+    background-color: aliceblue;
+    display:inline;
+
+}
+#header-img
+{
+    float: left;
+    /* size: 10px; */
+    height:120px;
+    width:120px;
+    display:inline;
+}
+
+ul{
+    list-style-type: none;
+    display:inline;
+    float: right;
+}
+#nav-bar
+{
+    float: right;
+    display:inline;
+}
+/* #nav-link 
+{
+    float: right;
+} */
